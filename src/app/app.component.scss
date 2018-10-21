@@ -1,0 +1,17 @@
+.board{
+    height: 0.5px;
+    width:0.5px;
+}
+
+table, th, td{
+    border: 0.04px solid #eae9e9;
+    border-collapse: collapse;
+}
+
+.snake{
+    background-color: black;
+}
+
+.fruit{
+    background-color: red;
+}

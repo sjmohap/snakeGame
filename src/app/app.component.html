@@ -1,0 +1,9 @@
+<table>
+  <tr *ngFor="let elem of board; index as i">
+    <th  *ngFor="let elem of board; index as j" [class.snake]="isSnake(i,j)" [class.fruit]="isFruit(i,j)">
+      <div class="board"></div>
+    </th>
+  </tr>
+</table>
+
+<p>{{'Your current score is'+ score}}</p>
