@@ -120,5 +120,7 @@ export class AppComponent {
           velocity*(currentLength+bonusTimeRemaining);
 }
   
-
+  myFunction() {
+    console.log("hello world")
+  }
 }
